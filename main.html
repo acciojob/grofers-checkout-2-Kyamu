@@ -8,6 +8,34 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+
+	<table id="groceryList">
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bread</td>
+      <td data-ns-test="prices">30</td>
+    </tr>
+    <tr>
+      <td>Butter</td>
+      <td data-ns-test="prices">50</td>
+    </tr>
+    <tr>
+      <td>Cheese</td>
+      <td data-ns-test="prices">80</td>
+    </tr>
+  </tbody>
+</table>
+<div>
+  Total Price: <span data-ns-test="grandTotal"></span>
+</div>
+<button onclick="calculateTotal()">Calculate Total</button>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
